@@ -1,0 +1,368 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-style: 'Poppins' sans-serif ;
+}
+
+.pic{
+    background-size: cover;
+    object-fit: cover;
+    background-attachment:fixed;
+    background-position:center ;
+}
+
+.i{
+  background-image: url("mufaro/img1.jpeg");
+  height: 900px;
+}
+.c{
+    background-image: url("mufaro/port2.jpeg");
+    height: 900px;
+}
+
+.v{
+    background-image: url("mufaro/img6.jpeg");
+    height: 900px;
+}
+
+.vi{
+    background-image: url("mufaro/port.webp");
+    height: 900px;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+    position: fixed;
+    width: 100%;
+    background-color: #C0D2E6;
+    
+}
+
+#about{
+    background-color: #CADBEB;
+    font-style: 'Poppins', sans-serif;
+    padding: 70px 0;
+    
+
+}
+
+#about .profile{
+    text-align: center;
+}
+#about img{
+    margin: 0 auto;
+    max-width: 60%;
+	padding: 0;
+	
+}
+#about .summary>h4{
+    font-style: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    
+    
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 25px;
+    font-style:italic;
+}
+
+.centered{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px; 
+    overflow:hidden;
+    text-align: center;
+    
+}
+
+.main {
+    position:absolute;
+    top: 60%;
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+   display: inline-block; 
+   padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover{
+    color: white;
+}
+
+button{
+    padding:9px 25px ;
+    background-color:#728490;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: white;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    background-color: #C0D2E6;
+    }
+    
+    .footer{
+        background:#C0D2E6;
+        padding:30px 0px;
+        font-family: 'Play', sans-serif;
+        text-align:center;
+        }
+        
+        .footer .row{
+        width:100%;
+        margin:1% 0%;
+        padding:0.6% 0%;
+        color:gray;
+        font-size:0.8em;
+        }
+        
+        .footer .row a{
+        text-decoration:none;
+        color:gray;
+        transition:0.5s;
+        }
+        
+        .footer .row a:hover{
+        color:#fff;
+        }
+        
+        .footer .row ul{
+        width:100%;
+        }
+        
+        .footer .row ul li{
+        display:inline-block;
+        margin:0px 30px;
+        }
+        
+        .footer .row a i{
+        font-size:2em;
+        margin:0% 1%;
+        }
+        
+        @media (max-width:720px){
+        .footer{
+        text-align:left;
+        padding:5%;
+        }
+        .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+        .footer .row a i{
+        margin:0% 3%;
+        }
+    }
+
+    .ii{
+        height: 700px;
+        background-image:url("mufaro/img1.jpeg");
+    }
+
+
+    input[type=submit] {
+    padding:9px 25px ;
+    background-color:#728490;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.section-form {
+    padding: 80px 0;
+    background-color: #CADBEB;
+  }
+  
+  .section-form h2 {
+    text-align: center;
+    color: #000;
+    font-size: 160%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: -2px; 
+  }
+  
+  
+  
+  .section-form h2:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: #254A59;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
+  .contact-form {
+    padding: 25px 0px 0px 0px;
+    width: 60%;
+    margin: 0 auto;
+    
+    
+  }
+  
+  input[type=text],
+  input[type=email],
+  select,
+  textarea {
+    font-size: 85%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+
+  
+* {box-sizing:border-box}
+
+
+.container {
+  width: 100%; 
+  background-color: #C0D2E6; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 80%; background-color: #000D03;} 
+.css {width: 75%; background-color: #254A59;} 
+.js {width: 50%; background-color: #254A59;} 
+.gd {width: 50%; background-color: #000D03;} 
+
+#skills h2{
+	font-weight: bold;}
+
+    .skills{
+        text-align: center;
+    }
+
+    #skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Make sure the section takes full viewport height */
+        text-align: center; /* Center text horizontally */
+    }
+    
+    #skills .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.smol-css-grid {
+    --min: 20ch;
+    --gap: 1rem;
+  
+    display: grid;
+    grid-gap: var(--gap);
+    grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+  }
+  
+  .smol-card-component {
+    --img-ratio: 3/2;
+  
+    display: flex;
+    flex-direction: column;
+    /* Supported for flexbox in modern browsers since April 2021 */
+    gap: 1rem;
+    box-shadow: 0 0 0.5rem hsl(0 0% 0% / 35%);
+    border-radius: 0.5rem;
+  }
+  
+  .smol-card-component > img {
+    aspect-ratio: var(--img-ratio);
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .smol-card-component > img:first-child {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .smol-card-component > img:last-child {
+    border-radius: 0 0 0.5rem 0.5rem;
+    margin-top: auto;
+  }
+  
+  .smol-card-component > :not(img) {
+    margin-left: 1rem;
+    margin-right: 1rem;}
+  
+   
+  
+  
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
